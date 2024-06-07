@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01 - Form</title>
+    <link rel="stylesheet" href="../_styles/styles.css" />
+  </head>
+  <body>
+    <h1>01 - Form</h1>
+    <form action="/submit">
+      <label for="name">Name</lable>
+      <input type="text" id="name" />
+      <br /><br />
+      <label>
+        Email
+        <input type="text" />
+      </label>
+      <br /><br />
+     <!-- <span>Favorite Character</span> -->
+      <div>
+        <fieldset>
+          <legend>Favourite Character</legend>
+          <input type="radio" id="spongebob" name="characterButton" />
+          <label for="spongebob">Spongebob</lable>
+        <br />
+        <input type="radio" id="patrick" name="characterButton" />
+        <label for="patrick">Patrick</label>
+        <br />
+          <input type="radio" id="sandy" name="characterButton" />
+          <label for="sandy">Sandy</label>
+          </fieldset>
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
